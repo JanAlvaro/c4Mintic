@@ -1,4 +1,5 @@
-import {Schema, model} from 'mongoose';
+import mongoose from 'mongoose';
+const{Schema , model} = mongoose;
 import {Enum_TipoObjetivo} from './enums/enum'
 import { ProjectModel } from './proyecto/proyecto';
 
